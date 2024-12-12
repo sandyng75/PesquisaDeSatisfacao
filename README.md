@@ -15,8 +15,8 @@ Escala Likert, muito usada no final do atendimento de SAC, não é uma variável
 
 Exemplo: Avalie o nosso atendimento em relação a sua satisfação:
 
-- 5 muito satisfeito
-- 4 satisfeito
+- 5 Muito satisfeito
+- 4 Satisfeito
 - 3 Indiferente
 - 2 Insatisfeito 
 - 1 Muito Insatisfeito
