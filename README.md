@@ -29,4 +29,10 @@ O código 3 mostra a relação direta entre o percentual de retenção dos clien
 Da vivência analisando PSAT de URA e WPP, percebi que a quantidade de saídas para o atendimento humano é a variável que mais interfere na nota. Algumas empresas acreditam tanto nos seus robôs que passam a automatizar todos os processos, sem deixar brechas para o cliente explicar todo o perrengue. Difícil equilíbrio entre custos e satisfação! Buscar excelência em cada automação é a solução.
 
 
+Código 4 > REDUÇÃO DE VARIÁVEIS PARA PSAT LONGAS
+
+Já respondi PSAT com mais de 15 perguntas, a ideia do pesquisador era captar a satisfação de todos os itens possíveis da jornada do cliente. No entanto, acredito que o consumidor tende a dar notas similares às perguntas do mesmo tema. Dúvida prática: o consumidor que recebeu um bom desconto no produto, tende a dar nota boa para itens como preço, condições forma de pagamento, atendente, cordialidade? Segue código para análise de correlação e redução de variáveis (Análise Fatorial), utilizando um banco de dados fictício do professor Luiz Paulo Fávero, do livro "Manual de Análise de Dados", 2ª edição.
+
+
+
 
