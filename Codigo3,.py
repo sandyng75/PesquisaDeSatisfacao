@@ -100,3 +100,17 @@ modelo.predict(pd.DataFrame({'Retenção_Media':[55]}))
 # Ou seja, para cada ponto de retenção adicional, há uma redução de 0.2815 da nota.
 
 #%% FIM 
+
+#%% Caso queira analisar correlação somente nos dias úteis (sem sábado e domingo)
+
+df['Dia_semana'] = df['Data'].dt.dayofweek
+
+df_dia_util = df[(df['Dia_semana'] == 0 ) |
+                 (df['Dia_semana'] == 1 ) |
+                 (df['Dia_semana'] == 2 ) |
+                 (df['Dia_semana'] == 3 ) |
+                 (df['Dia_semana'] == 4 ) ]
+
+df_dia_util[['Nota_Media','Retenção_Media']].corr()
+
+

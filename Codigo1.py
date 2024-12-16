@@ -6,6 +6,7 @@ import pandas as pd #manipulação de dados em formato de dataframe
 from scipy import stats #biblioteca de operações estatísticas
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy import stats
 from scipy.stats import ttest_ind
 from scipy.stats import mannwhitneyu
 
